@@ -1,0 +1,28 @@
+* {
+    color: rgb(3, 228, 198);
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(3, 228, 198);
+}
+
+html, body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child{
+    width: auto;
+    height: auto;
+}
+
+.child h1{
+    font-size: 100px;
+}
